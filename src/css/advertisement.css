@@ -1,0 +1,56 @@
+.advertisement {
+  border-radius: 30px;
+  width: 335px;
+  height: 363px;
+  background: #0c0c0c;
+  background-image: url(../img/catalog/mobile-background.png);
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advertisement-all {
+  padding: 60px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.advertisement-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+.advertisement-part {
+  color: rgba(251, 251, 251, 0.5);
+}
+.advertisement-btn {
+  width: 160px;
+  height: 48px;
+  background-color: transparent;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+}
