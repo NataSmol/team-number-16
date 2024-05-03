@@ -22,7 +22,7 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   width: 335px;
-  height: 364px;
+  padding-bottom: 24px;
   display: inline-block;
   padding-left: 28px;
 
@@ -66,9 +66,37 @@
   text-align: center;
   color: #fbfbfb;
 }
+
 @media screen and (min-width: 768px) {
   .catalog {
+    max-width: 768px;
+    padding: 0 40px;
+  }
+  .catalog-title {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+  .catalog-list {
     max-width: 704px;
+    gap: 20px 16px;
+    justify-content: flex-start;
+  }
+  .catalog-item {
+  }
+  .catalog-item-non {
+    display: contents;
+  }
+  .catalog-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 280px;
+
+    font-size: 20px;
+    line-height: 1;
+  }
+  .catalog-btn {
+    display: none;
   }
 }
 @media screen and (min-width: 1280px) {
