@@ -82,6 +82,7 @@
     justify-content: flex-start;
   }
   .catalog-item {
+    width: calc((100% - 16px) / 2);
   }
   .catalog-item-non {
     display: contents;
@@ -101,6 +102,16 @@
 }
 @media screen and (min-width: 1280px) {
   .catalog {
+    max-width: 1280px;
+  }
+  .catalog-list {
     max-width: 1150px;
+    gap: 32px 23px;
+  }
+  .catalog-item {
+    width: calc((100% - 46px) / 3);
+  }
+  .catalog-text {
+    width: 304px;
   }
 }
