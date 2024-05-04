@@ -113,6 +113,7 @@ img {
   .hero-text-wrapp {
     display: flex;
     flex-direction: row;
+    gap: 11px;
     max-width: 704px;
     align-items: flex-start;
     justify-content: flex-start;
