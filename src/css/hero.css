@@ -33,12 +33,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-.hero-section {
-  padding-bottom: 0;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 30px;
-}
 
 .hero-container {
   max-width: 375px;
@@ -47,6 +41,10 @@ img {
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+  padding-bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 30px;
 }
 .hero-text-wrapp {
   margin-bottom: 28px;
