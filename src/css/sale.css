@@ -12,20 +12,21 @@
 }
 /* ---------------------------Foto----------------------------- */
 .container-watch-sale {
-  width: 335px;
+  width: 100%;
   padding-bottom: 20px;
 }
 
 .watch-ul-sale {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 20px 5px;
+  /* flex-wrap: wrap; */
+  gap: 5px;
+  padding-bottom: 20px;
 }
 .watch-li-sale {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 16px;
-  width: 80px;
+  width: 100%;
   padding: 13px 14px;
   background-color: #f3f3f3;
 }
@@ -33,9 +34,10 @@
   align-items: center;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
+  width: 100%;
   background-color: #f3f3f3;
   padding: 50px 50px;
+  align-items: center;
 }
 /* --------------------------------information---------------------------- */
 .information-sale {
@@ -43,12 +45,11 @@
   background: #3350e9;
   border-radius: 30px;
   margin: 0 auto;
-  width: 335px;
-  height: 561px;
+  width: 100%;
 }
 .container-information-sale {
   padding-bottom: 20px;
-  width: 279px;
+  width: 100%;
 }
 .title-information-sale {
   font-weight: 600;
@@ -93,7 +94,7 @@
   color: rgba(251, 251, 251, 0.5);
   line-height: 1.2;
   letter-spacing: -0.02em;
-  width: 36px;
+  width: 100%;
 }
 /* --------------------------text----------------------------- */
 .text-information-sale {
@@ -113,7 +114,7 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 8px;
-  width: 279px;
+  width: 100%;
 }
 .features-li-sale {
   border: 1px solid rgba(251, 251, 251, 0.2);
@@ -134,11 +135,6 @@
   .container-sale {
     margin-bottom: 80px;
   }
-  .container {
-    width: 768px;
-    padding-right: 32px;
-    padding-left: 32px;
-  }
   .title-sale {
     margin-bottom: 40px;
     font-size: 48px;
@@ -156,7 +152,8 @@
     flex-direction: column;
     /* width: 704px; */
     height: 558px;
-    gap: 10px 20px;
+    gap: 10px;
+    padding-right: 20px;
   }
   .watch-li-sale {
     width: 132px;
@@ -172,11 +169,10 @@
   /* ----------------------------------------information-sale---------------------- */
   .information-sale {
     padding: 60px 60px;
-    width: 704px;
-    height: 518px;
+    max-width: 704px;
   }
   .container-information-sale {
-    width: 436px;
+    max-width: 436px;
   }
   .title-information-sale {
     font-size: 32px;
@@ -199,12 +195,13 @@
   /* ----------------------------------------features------------------------------- */
   .features-ul-sale {
     width: 398px;
-    padding-right: 28px;
   }
   .features-text-sale {
     font-size: 14px;
   }
 }
+
+/* --------------------------------------------destop----------------------------------------- */
 
 @media screen and (min-width: 1280px) {
   .container-sale {
