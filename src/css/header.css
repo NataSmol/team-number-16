@@ -16,12 +16,6 @@
   margin: 0 auto;
 }
 
-.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -72,6 +66,12 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
