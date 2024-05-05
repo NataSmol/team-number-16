@@ -67,8 +67,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.5s;
     
   }
+
+  .catalog span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .catalog span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .catalog:hover span {
+    padding-right: 25px;
+  }
+  
+  .catalog:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+
+
+
+
   .vcnop {
     color: #fbfbfb;
     text-decoration: none;
@@ -96,6 +130,7 @@
     letter-spacing: -0.02em;
     color: #0c0c0c;
   }
+ 
   /* .foto-cloc {
     background-image: url('/proekt-16/tab/Rectangle\(1\)x-tab.png');
     width: 704px;
@@ -270,4 +305,6 @@
     padding-left: 65px;
     padding-right: 65px;
   }
+
+
 }
