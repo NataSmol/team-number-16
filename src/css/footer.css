@@ -2,7 +2,8 @@
 	background: #0c0c0c;
 	border-radius: 30px;
 	padding: 40px 28px 28px 28px;
-	width: 370px;
+	/* max-width: 375px; */
+	/* width: 370px; */
 	/* height: 100%; */
 }
 
@@ -14,7 +15,7 @@
 }
 
 .footer-logo {
-	font-family: "Gilroy", sans-serif;
+	/* font-family: "Gilroy", sans-serif; */
 	font-weight: 500;
 	font-size: 16px;
 	letter-spacing: -0.02em;
@@ -75,8 +76,8 @@
 	display: flex;
 	max-width: 100%;
 	width: 279px;
-	/* height: 96px; */
-	font-family: "Gilroy", sans-serif;
+	height: 96px;
+	/* font-family: "Gilroy", sans-serif; */
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 1.2;
@@ -96,8 +97,8 @@
 
 .footer-nav-wrap {
 	display: flex;
-	flex-wrap: wrap;
-	width: 279px;
+	/* flex-wrap: wrap; */
+	/* width: 279px; */
 	/* height: 64px; */
 	justify-content: space-between;
 }
