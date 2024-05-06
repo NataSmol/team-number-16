@@ -14,7 +14,7 @@
     />
     
     <script type="module" crossorigin src="/team-number-16/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/team-number-16/assets/index-f5405a7a.css">
+    <link rel="stylesheet" href="/team-number-16/assets/index-ba5b179e.css">
   </head>
   <body>
     <header class="header">
@@ -221,8 +221,40 @@
 
       <section></section>
 
-      <section></section>
-
+      <section class="contact-section">
+<div class="container">
+    <h2 id="contact-us" class="contact">Contact Us</h2>
+<div class="contact-us">
+    <div class="contact-form">
+        <p class="contact-text">Please use the form below to contact us. Enter your name, email, phone, and message and
+            we'll get back to you shortly.</p>
+        <form class="contacts-user">
+            <div class="contact-input">
+                <input type="text" name="user-name" id="user-name" class="contact-user contact-name" placeholder="Name" required>
+            </div>
+            <div class="contact-input">
+                <input type="email" name="user-email" id="user-email" class="contact-user contact-email" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
+            </div>
+            <div class="contact-input">
+                <input type="tel" name="user-phone" id="user-phone" class="contact-user contact-tel" placeholder="+380" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" title="+380-XX-XXX-XX-XX" required>
+            </div>
+            <div class="contact-field contact-comment">
+                <textarea name="user-comment" id="user-comment" placeholder="Comment" class="contact-comment-text"></textarea>
+            </div>
+            <button type="submit" class="contact-btn">Send</button>
+        </form>
+    </div>
+    <div class="contact-pictures">
+        <picture>
+            <source srcset="/team-number-16/assets/desktop-image-94b2c1a9.png 1x, /team-number-16/assets/desktop-image@2x-34a5381b.png 2x" media="(min-width: 1280px)">
+            <source srcset="/team-number-16/assets/tablet-image-dd903aee.png 1x, /team-number-16/assets/tablet-image@2x-ba2019dd.png 2x" media="(min-width: 768px)">
+            <source srcset="/team-number-16/assets/mobile-image-733dd180.png 1x, /team-number-16/assets/mobile-image@2x-9c212251.png 2x" media="(max-width: 767px)">
+            <img class="contact-img" src="/team-number-16/assets/tablet-image@2x-ba2019dd.png" alt="pfoto" width="704" height="556" />
+        </picture>
+    </div>
+</div>
+</div>
+</section>
     </main>
 
     <section></section>
