@@ -1,0 +1,122 @@
+.catalog {
+  padding-bottom: 60px;
+}
+.catalog-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+.catalog-all {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.catalog-list {
+  padding-top: 24px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.catalog-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 100%;
+  padding-bottom: 24px;
+  display: inline-block;
+  padding-left: 28px;
+
+  background: #f3f3f3;
+}
+.catalog-item-non {
+  display: none;
+}
+.catalog-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+.catalog-price {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+.catalog-btn {
+  width: 160px;
+  height: 48px;
+  border-radius: 16px;
+  background: #3350e9;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+.catalog-btn-mob {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog {
+    padding: 0 40px;
+  }
+  .catalog-title {
+    font-size: 48px;
+    line-height: 0.92;
+    width: 704px;
+  }
+  .catalog-list {
+    gap: 20px 16px;
+    justify-content: flex-start;
+  }
+  .catalog-item {
+    width: calc((100% - 16px) / 2);
+  }
+  .catalog-item-non {
+    display: contents;
+  }
+  .catalog-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 280px;
+
+    font-size: 20px;
+    line-height: 1;
+  }
+  .catalog-btn {
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .catalog {
+    max-width: 100%;
+  }
+  .catalog-title {
+    width: 1150px;
+  }
+  .catalog-list {
+    max-width: 1150px;
+    gap: 32px 23px;
+  }
+  .catalog-item {
+    width: calc((100% - 46px) / 3);
+  }
+  .catalog-text {
+    width: 304px;
+  }
+}
