@@ -7,19 +7,21 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+  margin-bottom: 24px;
 }
 .catalog-all {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  padding-bottom: 60px;
 }
+
 .catalog-list {
-  padding-top: 24px;
-  padding-bottom: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  margin-bottom: 40px;
 }
 .catalog-item {
   border: 1px solid rgba(12, 12, 12, 0.05);
@@ -74,10 +76,16 @@
   .catalog {
     padding: 0 40px;
   }
+
+  .catalog-all {
+    padding-bottom: 80px;
+  }
+
   .catalog-title {
     font-size: 48px;
     line-height: 0.92;
     width: 704px;
+    margin-bottom: 40px;
   }
   .catalog-list {
     gap: 20px 16px;
@@ -106,6 +114,11 @@
   .catalog {
     max-width: 100%;
   }
+
+  .catalog-all {
+    padding-bottom: 100px;
+  }
+
   .catalog-title {
     width: 1150px;
   }
