@@ -41,6 +41,12 @@
 
 .footer-svg {
 	fill: #fbfbfb;
+	opacity: 0.8;
+	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-svg:hover, :focus {
+	opacity: 1;
 }
 
 .footer-tel-wrap {
