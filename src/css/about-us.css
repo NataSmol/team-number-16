@@ -1,102 +1,93 @@
-@media only screen and (min-width: 375px) {
-  .about {
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
-    gap: 28px;
-  }
+.about {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  gap: 28px;
+}
 
-  .conteiner {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
-  .cloc-cloc {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
+.cloc-cloc {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
-  .exere {
-    padding: 40px 20px;
-    width: 100%;
-    height: 100%;
-  }
+.exere {
+  padding: 40px 20px;
+  width: 100%;
+  height: 100%;
+}
 
-  ul li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+.us-div {
+  border-radius: 30px;
+  /* max-width: 100%; */
+  background: #f3f3f3;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
 
-  .us-div {
-    border-radius: 30px;
-    max-width: 100%;
-    background: #f3f3f3;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-  }
+.catalog {
+  display: inline-block;
+  width: 160px;
+  height: 48px;
+  border-radius: 16px;
+  background: #3350e9;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  text-align: center;
+  color: #fbfbfb;
+  margin-left: 20px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
 
-  .catalog {
-    display: inline-block;
-    width: 160px;
-    height: 48px;
-    border-radius: 16px;
-    background: #3350e9;
-    border: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.3;
-    text-align: center;
-    color: #fbfbfb;
-    margin-left: 20px;
-    display: inline-block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s;
-  }
+.catalog span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
-  .catalog span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
+.catalog span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
 
-  .catalog span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
+.catalog:hover span {
+  padding-right: 25px;
+}
 
-  .catalog:hover span {
-    padding-right: 25px;
-  }
+.catalog:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 
-  .catalog:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
+.vcnop {
+  color: #fbfbfb;
+  text-decoration: none;
+}
 
-  .vcnop {
-    color: #fbfbfb;
-    text-decoration: none;
-  }
+.button {
+  padding-left: 20px;
+}
 
-  .button {
-    padding-left: 20px;
-  }
-
-  .ul-pwel {
-    padding: 0;
-  }
+.ul-pwel {
+  padding: 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -108,9 +99,10 @@
     letter-spacing: -0.02em;
     color: #0c0c0c;
   }
-  .conteiner {
+  .container {
     padding-left: 32px;
     padding-right: 32px;
+    max-width: 768px;
   }
 
   .cloc-cloc {
@@ -119,11 +111,6 @@
     height: auto;
   }
 
-  ul li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
   .ul-pwel {
     padding: 0;
   }
@@ -133,6 +120,7 @@
     height: 100%; */
     background: #f3f3f3;
     margin-bottom: 40px;
+    max-width: 768px;
   }
 
   .catalog {
@@ -185,8 +173,8 @@
   }
   .exere {
     padding: 60px 80px;
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
   }
   .catalog:hover {
     background: #1f3cd4;
@@ -198,7 +186,6 @@
 
 @media only screen and (min-width: 1280px) {
   .about {
-    font-family: 'Gilroy', sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 1;
@@ -215,21 +202,16 @@
     height: 530px;
   }
 
-  ul li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
   .ul-pwel {
     padding: 0;
   }
 
   .us-div {
     border-radius: 30px;
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     background: #f3f3f3;
+    max-width: 1280px;
   }
 
   .catalog:hover {
@@ -300,10 +282,11 @@
   .exere {
     padding: 60px 60px 40px 60px;
   }
-  .conteiner {
+  .container {
     display: flex;
     gap: 40px;
     padding-left: 65px;
     padding-right: 65px;
+    max-width: 1280px;
   }
 }
