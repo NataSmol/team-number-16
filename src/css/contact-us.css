@@ -136,7 +136,7 @@ img {
     border-radius: 30px;
     width: 100%;
     height: 512px;
-    background: url("/img/contact/tablet-image@2x.png");
+    /* background: url("/img/contact/tablet-image@2x.png"); */
     overflow: hidden;
     
 }
@@ -236,7 +236,7 @@ img {
         height: 556px;
         }
     .contact-form {
-        padding: 50px 50px;
+        padding: 50px 60px;
         }
     .contact-pictures {
             border-radius: 50px;
