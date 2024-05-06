@@ -1,9 +1,9 @@
 .advertisement {
   border-radius: 30px;
-  width: 335px;
+  width: 100%;
   height: 363px;
   background: #0c0c0c;
-  background-image: url(../img/catalog/mobile-background.png);
+  background-image: url(/img/catalog/mobile-background.png);
   align-items: center;
   background-repeat: no-repeat;
   background-position: center;
@@ -14,7 +14,7 @@
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
   .advertisement {
-    background-image: url(../img/catalog/mobile-background@2x.png);
+    background-image: url(/img/catalog/mobile-background@2x.png);
   }
 }
 
@@ -36,7 +36,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
+  height: 363px;
 }
 
 .advertisement-text {
@@ -67,19 +67,20 @@
 }
 @media screen and (min-width: 768px) {
   .advertisement {
-    width: 704px;
+    width: 100%;
     height: 425px;
-    background-image: url(../img/catalog/tablet-background.png);
+    background-image: url(/img/catalog/tablet-background.png);
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .advertisement {
-      background-image: url(../img/catalog/tablet-background@2x.png);
+      background-image: url(/img/catalog/tablet-background@2x.png);
     }
   }
   .advertisement-all {
     padding: 80px 64px;
+    height: 425px;
   }
   .advertisement-text {
     font-size: 48px;
@@ -88,16 +89,16 @@
 }
 @media screen and (min-width: 1280px) {
   .advertisement {
-    width: 1150px;
+    width: 100%;
     height: 298px;
     margin: 0;
-    background-image: url(../img/catalog/desktop-background.png);
+    background-image: url(/img/catalog/desktop-background.png);
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .advertisement {
-      background-image: url(../img/catalog/desktop-background@2x.png);
+      background-image: url(/img/catalog/desktop-background@2x.png);
     }
   }
   .advertisement-all {
