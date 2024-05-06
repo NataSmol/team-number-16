@@ -1,5 +1,4 @@
 .about {
-  font-family: "Gilroy", sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
@@ -21,12 +20,6 @@
 
 .exere {
   padding: 40px 20px;
-}
-
-ul li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .us-div {
@@ -65,7 +58,7 @@ ul li {
 }
 
 .catalog span:after {
-  content: "\00bb";
+  content: '\00bb';
   position: absolute;
   opacity: 0;
   top: 0;
@@ -97,7 +90,6 @@ ul li {
 
 @media only screen and (min-width: 375px) {
   .about {
-    font-family: "Gilroy", sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 1;
@@ -121,12 +113,6 @@ ul li {
     padding: 40px 20px;
     width: 100%;
     max-width: 100%;
-  }
-
-  ul li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
   }
 
   .us-div {
@@ -173,7 +159,6 @@ ul li {
 
 @media only screen and (min-width: 768px) {
   .about {
-    font-family: "Gilroy", sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 1;
@@ -191,11 +176,6 @@ ul li {
     height: auto;
   }
 
-  ul li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
   .ul-pwel {
     padding: 0;
   }
@@ -247,7 +227,6 @@ ul li {
 
 @media only screen and (min-width: 1280px) {
   .about {
-    font-family: "Gilroy", sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 1;
@@ -262,12 +241,6 @@ ul li {
     height: auto; */
     width: 532px;
     height: 530px;
-  }
-
-  ul li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
   }
 
   .ul-pwel {
