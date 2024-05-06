@@ -46,14 +46,14 @@
 .footer-tel-wrap {
 	border: 1px solid rgba(251, 251, 251, 0.2);
 	border-radius: 16px;
-	/* width: 152px;
-	height: 44px; */
+	width: 152px;
+	height: 44px;
 	margin-bottom: 40px;
 	margin-top: 20px;
 }
 
 .footer-tel {
-	/* width: 112px; */
+	width: 112px;
 	display: flex;
 	margin: 14px 20px;
 	font-weight: 500;
@@ -68,7 +68,7 @@
 .footer-text {
 	display: flex;
 	max-width: 100%;
-	/* width: 279px; */
+	width: 279px;
 	/* height: 96px; */
 	font-family: "Gilroy", sans-serif;
 	font-weight: 600;
@@ -91,13 +91,13 @@
 .footer-nav-wrap {
 	display: flex;
 	flex-wrap: wrap;
-	/* width: 279px; */
+	width: 279px;
 	/* height: 64px; */
 	justify-content: space-between;
 }
 
 .footer-box-nav {
-	/* width: 147px; */
+	width: 147px;
 }
 
 .footer-nav-lists {
@@ -121,7 +121,7 @@
 .footer-address {
 	display: flex;
 	flex-wrap: wrap;
-	/* max-width: 83px; */
+	max-width: 83px;
 	padding-bottom: 16px;
 	margin-left: 49px;
 }
