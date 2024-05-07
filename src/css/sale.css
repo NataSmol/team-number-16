@@ -1,0 +1,245 @@
+/* ------------------------------------SALE-------------------------------------------- */
+.container-sale {
+  margin-bottom: 60px;
+}
+.title-sale {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+/* ---------------------------Foto----------------------------- */
+.container-watch-sale {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.watch-ul-sale {
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.watch-li-sale {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  width: 100%;
+  padding: 13px 14px;
+  background-color: #f3f3f3;
+}
+.watch-li-main-sale {
+  align-items: center;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 50px 50px;
+  align-items: center;
+}
+/* --------------------------------information---------------------------- */
+.information-sale {
+  padding: 48px 28px;
+  background: #3350e9;
+  border-radius: 30px;
+  margin: 0 auto;
+  width: 100%;
+}
+.container-information-sale {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.title-information-sale {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 10px;
+}
+.tag-sale {
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+/* ---------------------------------------price------------------------- */
+.price-sale {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 28px;
+}
+.price-text-sale {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fbfbfb;
+  background-color: rgba(251, 251, 251, 0.1);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  border-radius: 8px;
+  width: 68px;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-text-two-sale {
+  font-size: 12px;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  width: 100%;
+}
+/* --------------------------text----------------------------- */
+.text-information-sale {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 28px;
+}
+
+/* ---------------------------------------features-------------------------- */
+.features-ul-sale {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+  width: 100%;
+}
+.features-li-sale {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.features-text-sale {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.3;
+  color: #fbfbfb;
+  text-align: center;
+}
+/* -----------------------------------end---------------------------------------- */
+
+@media screen and (min-width: 768px) {
+  .container-sale {
+    margin-bottom: 80px;
+  }
+  .title-sale {
+    margin-bottom: 40px;
+    font-size: 48px;
+  }
+  /* --------------------------------------foto-------------------------- */
+  .container-watch-sale {
+    width: 704px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+  .watch-ul-sale {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* width: 704px; */
+    height: 558px;
+    gap: 10px;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+  .watch-li-sale {
+    width: 132px;
+    padding: 16px 18px;
+    border-radius: 20px;
+  }
+
+  .watch-li-main-sale {
+    width: 552px;
+    border-radius: 50px;
+    padding: 80px 112px;
+  }
+  /* ----------------------------------------information-sale---------------------- */
+  .information-sale {
+    padding: 60px 60px;
+    max-width: 704px;
+  }
+  .container-information-sale {
+    max-width: 436px;
+  }
+  .title-information-sale {
+    font-size: 32px;
+  }
+  /* ---------------------------------------price-sale------------------------------------ */
+  .price-sale {
+    margin-bottom: 30px;
+  }
+  .price-text-sale {
+    font-size: 20px;
+    line-height: 1;
+    width: 78px;
+  }
+  /* ----------------------------------------text-------------------------- */
+  .text-information-sale {
+    font-size: 16px;
+    width: 584px;
+    margin-bottom: 40px;
+  }
+  /* ----------------------------------------features------------------------------- */
+  .features-ul-sale {
+    width: 398px;
+  }
+  .features-text-sale {
+    font-size: 14px;
+  }
+}
+
+/* --------------------------------------------destop----------------------------------------- */
+
+@media screen and (min-width: 1280px) {
+  .container-sale {
+    margin-bottom: 100px;
+  }
+  .container {
+    width: 1280px;
+  }
+  .container-watch-sale {
+    margin: 0;
+  }
+  .box-sale {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    /* gap: 40px;  --------------можна призначити гад----------------- */
+  }
+
+  .container-watch-sale {
+    margin-right: 40px;
+  }
+
+  .watch-li-main-sale {
+    width: 428px;
+    padding: 80px 50px;
+  }
+  .information-sale {
+    border-radius: 50px;
+    width: 530px;
+    height: 558px;
+    margin: 0;
+  }
+  .container-information-sale {
+    width: 389px;
+  }
+  .text-information-sale {
+    width: 410px;
+  }
+}
