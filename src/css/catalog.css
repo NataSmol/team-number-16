@@ -25,10 +25,11 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   width: 100%;
+  padding-top: 24px;
   padding-bottom: 24px;
   display: inline-block;
   padding-left: 28px;
-
+  padding-right: 28px;
   background: #f3f3f3;
 }
 .catalog-item-non {
@@ -40,8 +41,8 @@
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  padding-top: 10px;
-  padding-bottom: 8px;
+  margin-top: 10px;
+  margin-bottom: 8px;
 }
 .catalog-price {
   font-family: 'Gilroy', sans-serif;
@@ -68,6 +69,11 @@
   line-height: 1.28571;
   text-align: center;
   color: #fbfbfb;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.catalog-btn:hover,
+.catalog-btn:focus {
+  background: #1f3cd4;
 }
 
 @media screen and (min-width: 768px) {
@@ -85,6 +91,10 @@
   }
   .catalog-item {
     width: calc((100% - 16px) / 2);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
   .catalog-item-non {
     display: contents;
