@@ -1,6 +1,6 @@
 /* ------------------------------------SALE-------------------------------------------- */
 .container-sale {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 .title-sale {
   font-weight: 600;
@@ -133,7 +133,7 @@
 
 @media screen and (min-width: 768px) {
   .container-sale {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
   .title-sale {
     margin-bottom: 40px;
@@ -150,7 +150,6 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    /* width: 704px; */
     height: 558px;
     gap: 10px;
     margin-right: 20px;
@@ -206,7 +205,7 @@
 
 @media screen and (min-width: 1280px) {
   .container-sale {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
   .container {
     width: 1280px;
