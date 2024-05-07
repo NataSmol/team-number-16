@@ -1,7 +1,9 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  font-family: 'Gilroy', sans-serif;
+  color: #0c0c0c;
+  background-color: #fbfbfb;
+  font-style: normal;
+  font-weight: 500;
 }
 
 p,
@@ -79,10 +81,10 @@ img {
 }
 
 .title {
-  color: #0c0c0c;
-  font-family: Gilroy;
-  font-style: normal;
   font-weight: 600;
+  font-size: 48px;
+line-height: 44px;
+letter-spacing: -0.96px;
   text-transform: capitalize;
 }
 
