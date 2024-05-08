@@ -1,4 +1,3 @@
-
 .three {
   padding-bottom: 50px;
 }
@@ -56,9 +55,11 @@
   line-height: 1.3;
   text-align: center;
   color: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.foto-cloc {
+n .foto-cloc {
   width: 100%;
   border-radius: 30px;
   background-color: rgba(12, 12, 12, 0.2);
@@ -119,4 +120,4 @@
   .foto-cloc {
     width: 530px;
   }
-} 
+}
