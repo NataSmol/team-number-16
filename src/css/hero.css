@@ -43,7 +43,7 @@ img {
   flex-direction: column;
   padding-left: 20px;
   padding-right: 20px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 .hero-text-wrapp {
   margin-bottom: 28px;
@@ -93,6 +93,7 @@ img {
   margin-left: auto;
   align-content: end;
   display: inline-block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-container-link:hover {
   color: #3350e9;
@@ -105,6 +106,7 @@ img {
     padding-top: 80px;
     padding-left: 32px;
     padding-right: 32px;
+    padding-bottom: 40px;
   }
   .hero-text-wrapp {
     display: flex;
@@ -152,6 +154,7 @@ img {
     max-width: 1280px;
     padding-left: 65px;
     padding-right: 65px;
+    padding-bottom: 50px;
   }
   .hero-container-title {
     font-size: 72px;
