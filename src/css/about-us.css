@@ -1,12 +1,12 @@
 .three {
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .about-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 335px;
+  width: 100%;
 }
 
 .about-text {
@@ -75,7 +75,7 @@
   }
 
   .about-container {
-    width: 704px;
+    width: 768px;
     gap: 40px;
   }
 
