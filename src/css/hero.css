@@ -43,7 +43,7 @@ img {
   flex-direction: column;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .hero-text-wrapp {
   margin-bottom: 28px;
