@@ -36,13 +36,12 @@ img {
 
 .hero-container {
   max-width: 375px;
-  padding-top: 60px;
+  padding: 60px 20px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  padding-left: 20px;
-  padding-right: 20px;
+
   margin-bottom: 30px;
 }
 .hero-text-wrapp {
