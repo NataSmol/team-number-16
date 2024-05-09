@@ -2,11 +2,6 @@
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 2px solid rgba(12, 12, 12, 0.1);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
 }
 
 .logo-wrap {
