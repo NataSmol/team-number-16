@@ -130,6 +130,7 @@ img {
 .hero-container-link:hover {
   color: #3350e9;
 }
+
 @media screen and (min-width: 768px) {
   .hero-container {
     padding-top: 80px;
