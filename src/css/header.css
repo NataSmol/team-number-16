@@ -2,6 +2,11 @@
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 2px solid rgba(12, 12, 12, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .logo-wrap {
@@ -29,6 +34,13 @@
   font-size: 16px;
   line-height: normal;
   letter-spacing: -0.32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo:hover,
+.logo:focus,
+.logo:active {
+  color: #3350e9;
 }
 
 .header-nav-list {
@@ -61,7 +73,6 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   overflow: auto;
   opacity: 0;
   visibility: hidden;
@@ -72,6 +83,10 @@
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+}
+
+.mob-menu-wrap {
+  margin-top: auto;
 }
 
 @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
@@ -90,6 +105,7 @@
   margin: 0 auto;
   align-items: center;
   text-align: center;
+  margin-top: auto;
 }
 
 .mob-close-btn {
@@ -98,7 +114,9 @@
   width: 34px;
   height: 34px;
   padding: 0;
-  margin-bottom: 186px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
   background-color: transparent;
   border: none;
 }
@@ -122,8 +140,8 @@
 .current::after {
   content: '';
   position: absolute;
-  left: 42%;
-  bottom: -10px;
+  left: 32%;
+  bottom: -8px;
   border-radius: 50%;
   width: 8px;
   height: 8px;
@@ -134,6 +152,17 @@
   color: #fbfbfb;
   font-size: 14px;
   line-height: 18px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-nav-link:hover,
+.mob-nav-link:focus,
+.mob-nav-link:active {
+  color: #3350e9;
+}
+
+.mob-link {
+  margin-top: auto;
 }
 
 .mob-soc-list {
@@ -161,7 +190,9 @@
   fill: #fbfbfb;
 }
 
-.mob-icon:focus {
+.mob-soc-link:hover .mob-icon,
+.mob-soc-link:focus .mob-icon,
+.mob-soc-link:active .mob-icon {
   fill: #3350e9;
 }
 
@@ -197,6 +228,11 @@
     .mob-menu {
       background-image: url(/img/header/tablet-menu-background@2x.jpg);
     }
+  }
+
+  .mob-close-btn {
+    top: 26px;
+    right: 32px;
   }
 
   .mob-item:not(:last-child) {
@@ -249,7 +285,18 @@
   .header-nav-list {
     display: flex;
     gap: 40px;
+  }
+
+  .nav-item {
     padding-top: 4px;
+    padding-bottom: 6px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .nav-item:hover,
+  .nav-item:focus,
+  .nav-item:active {
+    color: #3350e9;
   }
 
   .header-soc-list {
@@ -279,9 +326,9 @@
     fill: #0c0c0c;
   }
 
-  .header-icon:hover,
-  .header-icon:focus,
-  .header-icon:active {
+  .header-link:hover .header-icon,
+  .header-link:focus .header-icon,
+  .header-link:active .header-icon {
     fill: #3350e9;
   }
 }
