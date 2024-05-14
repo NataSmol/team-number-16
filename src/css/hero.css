@@ -156,7 +156,8 @@ img {
  * ----------------------------------------
  * animation shadow-drop-2-center
  * ----------------------------------------
- */
+ nmp*/
+
 @-webkit-keyframes shadow-drop-2-center {
   0% {
     -webkit-transform: translateZ(0);
